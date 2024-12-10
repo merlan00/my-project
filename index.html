@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>SportSHop</title>
+    <link rel="stylesheet" href="h2.css">
+    <script src="afo.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .footer {
+            background-color: #b45413;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .footer-logo img {
+            height: 50px;
+        }
+        .footer-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .footer-nav ul li {
+            margin-right: 20px;
+        }
+        .footer-nav ul li:last-child {
+            margin-right: 0;
+        }
+        .footer-nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer-contact p {
+            margin: 5px 0;
+        }
+        .footer-social a {
+            margin-right: 10px;
+        }
+        .footer-social img {
+            height: 20px;
+        }
+        .footer-bottom {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .hero {
+            background-color: #f8f8f8;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .hero .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #b45413;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .products {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #b45413;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Верхнее меню навигации -->
+    <header>
+        <div class="logo">Спорт Магазин</div> 
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero" id="home">
+        <h1>Добро пожаловать в наш магазин спортивных товаров!</h1>
+        <p>Лучшие цены на качественную спортивную экипировку.</p>
+        <a href="#products" class="btn">Смотреть товары</a>
+    </section>
+
+    <!-- Раздел с товарами -->
+    <section class="products" id="products">
+        <h2>Популярные товары</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://www.professionalsport.ru/spree/products/000/144/240/original/1011a550_800.jpg?1570107743" alt="Товар 1">
+                <h3>Беговые кроссовки</h3>
+                <p>Цена: 13 200 руб.</p>
+                <a href="https://verdistore.ru/catalog/men/obuv_1/krossovki/00280449/?yclid=14292982601903505407" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://fanshop.by/upload/products/1381/orig/7fe4ba641b11392cab713de93c7af813.JPG" alt="Товар 2">
+                <h3>Футбольный мяч</h3>
+                <p>Цена: 5 665 руб.</p>
+                <a href="https://ftool.ru/futbolny-myach-festool-soc-ft1/" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://cdn1.ozone.ru/s3/multimedia-1/6017407441.jpg" alt="Товар 3">
+                <h3>Спортивная форма</h3>
+                <p>Цена: 800 руб.</p>
+                <a href="https://mysokol.com/catalog/odezhda/futbolki/futbolka-phiten-sport-half-sleeve-logo-oranzhevaya/" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://www.ufabasket.ru/_front/files/images/news/1584328883/1579131929_photo_15361531911166.jpg.jpeg" alt="Товар 4">
+                <h3>Баскетбольный мяч</h3>
+                <p>Цена: 6 199 руб.</p>
+                <a href="https://www.lamoda.ru/p/mp002xu08676/accs-lining-myach-basketbolnyy/?utm_source=YDirect&utm_medium=cpc&utm_campaign=108584813.RU_SEMNB_Web_Gallery_Brand_unpopular&utm_content=5419804420&utm_term=52957393563.---autotargeting&adjust_tracker=fk2tk4_56bkkg&adjust_campaign=RU_SEMNB_Web_Gallery_Brand_unpopular&adjust_adgroup=5419804420&adjust_creative=52957393563.---autotargeting&adjust_ya_click_id=15152211963681701887&yclid=15152211963681701887" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://avatars.mds.yandex.net/i?id=992b820c971e6ecd176ff0c43efbcf27_l-5233265-images-thumbs&n=13" alt="Товар 5">
+                <h3>Теннисная ракетка</h3>
+                <p>Цена: 49 500 руб.</p>
+                <a href="https://www.babochka.ru/item/122611/6/1445984/raketka_dlya_tennisa_ea7_279177cc199" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://avatars.mds.yandex.net/i?id=55a5717b75de25c594b8fa2f91a0fa07_l-3707062-images-thumbs&n=13" alt="Товар 6">
+                <h3>Велосипед</h3>
+                <p>Цена: 52 400 руб.</p>
+                <a href="https://elimo.ru/product/gornyy-velosiped-author-impulse-29?variant_id=763997844&yclid=6778633572419371007" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://sport116.com/uploads/product/1400/1441/6039945_2019-06-18_16-01-01.jpg" alt="Товар 7">
+                <h3>Гантели</h3>
+                <p>Цена: 458 руб.</p>
+                <a href="https://ganteli.ru/kupit_ganteli/ganteli_fitness/gantel-dlya-fitnesa-vinilovaya-voitto-2-kg" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://livniy.sidex.ru/images_offers/1886/1886373/thumb/kovrik_dhshht_2.jpg" alt="Товар 8">
+                <h3>Йога-мат</h3>
+                <p>Цена: 1 445 руб.</p>
+                <a href="https://prozakupka.ru/catalog/product/kovrik-dlya-jogi-sporta-i-fitnesa-142940?utm_source=yandex_search_din&utm_medium=search&utm_campaign=easy-media_autumn-winter_2024__yandex_text_cpc_2024-september-december&utm_content=keywords_rf_ch_yandex_direct%7Ccid_111198313%7Cgid_5451260287%7Cad_1842217966969202065%7Cph_51954652411%7Ccrt_0%7Cpst_premium%7Cps_9%7Csrct_search%7Csrc_none%7Cdevt_desktop%7Cret_51954652411%7Cgeo_30%7Ccf_0%7Cint_%7Ctgt_51954652411%7Cadd_no%7Cmrlid_5036%7Cdop_&utm_term=---autotargeting&yclid=1720130141425762303" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://avatars.mds.yandex.net/i?id=56a5e08e870032f04ae44d0cf6f1037d42b67915-8497831-images-thumbs&n=13" alt="Товар 9">
+                <h3>Беговая дорожка</h3>
+                <p>Цена: 118 000 руб.</p>
+                <a href="https://www.yamaguchi.ru/trenazhery-dlya-doma/yamaguchi-max?utm_source=yandex&utm_medium=cpc&utm_campaign=75094044_DPO_Dorozhka&utm_content=4935799624-12258054491-premium-2&utm_term=---autotargeting&calltouch_tm=yd_c%3A75094044_gb%3A4935799624_ad%3A12258054491_ph%3A53238917825_st%3Asearch_pt%3Apremium_p%3A2_s%3Anone_dt%3Adesktop_reg%3A30_ret%3A53238917825_apt%3Anone&uta_channel=yandex_v1_search_type1_c75094044_g4935799624_a12258054491_k53238917825&yclid=8456546361038864383" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://fromthai.ru/images/yg11.jpg" alt="Товар 10">
+                <h3>Боксерские перчатки</h3>
+                <p>Цена: 9 990 руб.</p>
+                <a href="https://www.greenhill.ru/catalog/product/bglp-2246eu3-bokserskie-perchatki-legend-platinum-krasno-zolotye/?utm_source=yandex&utm_medium=cpc&utm_campaign=Динамика%7CРоссия%7CОбщая%7CТоварная_галерея%7CCPC&utm_content=15103282530&utm_term=---autotargeting.desktop.Нальчик.53238185125.none&block=premium.8&yclid=3950088129416790015" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://cdn1.ozone.ru/multimedia/c600/1018186052.jpg" alt="Товар 11">
+                <h3>Ролики</h3>
+                <p>Цена: 3 171 руб.</p>
+                <a href="https://www.sportmaster.ru/product/32091580299/" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://octagon-shop.com/upload/iblock/ec2/skakalka_venum_competitor_weighted_jump_rope.jpg" alt="Товар 12">
+                <h3>Скакалка</h3>
+                <p>Цена: 3 490 руб.</p>
+                <a href="https://kingboxer.ru/product/venum-skakalka-competitor-weighted-290-sm/#color=30" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/bf/29/ec/bf29eceb83d0aee88ab31cb1f1591832.jpg" alt="Товар 13">
+                <h3>борцовки
+                </h3>
+                <p>Цена:  1 933 руб.</p>
+                <a href="https://www.ozon.ru/product/bortsovki-tellson-sport-1068667826/" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="https://avatars.mds.yandex.net/i?id=4caa349f782af58ec02dec66d534b1ae_l-5299999-images-thumbs&n=13" alt="Товар 14">
+                <h3>Электросамокат</h3>
+                <p>Цена: 40 900 руб.</p>
+                <a href="https://elektro-mall.ru/elektrosamokaty/ehlektrosamokat-kugookirin-max-speed-600w-48v-11ah?utm_source=yandex&utm_medium=cpc&utm_campaign=81106914&utm_content=13161132456&utm_term=---autotargeting&yclid=12561179986755059711" class="btn">Купить</a>
+            </div>
+            
+   
+
+
+
+
+    </section>
+ 
+<!-- О Нас -->
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="title">О Нас</h2>
+        <p class="description">Наш магазин спортивных товаров - это команда профессионалов, объединенных общей целью: предоставить нашим клиентам лучшие спортивные товары и оборудование для достижения их целей и реализации их потенциала.</p>
+
+        <div class="about-block">
+            <h3 class="block-title">Наша История</h3>
+            <p class="block-description">Наш магазин был основан в [год основания] группой энтузиастов спорта, которые хотели создать место, где люди могли бы найти все необходимое для занятий спортом и фитнесом. С тех пор мы непрерывно растем и развиваемся, расширяя наш ассортимент и улучшая качество наших услуг.</p>
+        </div>
+
+        <div class="about-block">
+            <h3 class="block-title">Наша Миссия</h3>
+            <p class="block-description">Наша миссия - предоставить нашим клиентам лучшие спортивные товары и оборудование, а также оказать им профессиональную помощь и консультации для достижения их целей. Мы стремимся создать комфортную и удобную среду для наших клиентов, чтобы они могли чувствовать себя уверенно и мотивированно в своих занятиях спортом.</p>
+        </div>
+
+        <div class="values-block">
+            <h3 class="block-title">Наши Ценности</h3>
+            <ul class="values-list">
+                <li class="value-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="value-text">Качество: Мы предлагаем только высококачественные спортивные товары и оборудование от известных брендов.</span>
+                </li>
+                <li class="value-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="value-text">Профессионализм: Наши сотрудники - профессионалы в области спорта и фитнеса, готовые оказать вам помощь и консультации.</span>
+                </li>
+                <li class="value-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="value-text">Удобство: Мы создаем комфортную и удобную среду для наших клиентов, чтобы они могли чувствовать себя уверенно и мотивированно.</span>
+                </li>
+                <li class="value-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="value-text">Инновации: Мы постоянно следим за новыми тенденциями и технологиями в области спорта и фитнеса, чтобы предложить вам самые современные и эффективные решения.</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="partners-block">
+            <h3 class="block-title">Наши Партнеры</h3>
+            <p class="block-description">Мы сотрудничаем с известными брендами спортивных товаров и оборудования, чтобы предложить вам лучшие продукты и услуги. Наши партнеры - это компании, которые разделяют наши ценности и стремятся к достижению высоких стандартов качества и инноваций.</p>
+        </div>
+
+        <div class="contacts-block">
+            <h3 class="block-title">Связаться с Нами</h3>
+            <p class="block-description">Если у вас есть вопросы или предложения, пожалуйста, не стесняйтесь связаться с нами. Мы всегда готовы помочь и ответить на ваши вопросы.</p>
+            <ul class="contacts-list">
+                <li class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span class="contact-text">+7 (123) 456-78-90</span>
+                </li>
+                <li class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span class="contact-text">info@example.com</span>
+                </li>
+                <li class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="contact-text">ул. Примерная, 123, Город</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://sh-int2-vichugskaya-r24.gosweb.gosuslugi.ru/netcat_files/50/173/06.05.2023_0.jpg" alt="Логотип">
+            </div>
+            <div class="footer-nav">
+                
+            </div>
+            <div class="footer-contact">
+                <p>Адрес: ул. Примерная, 123, Город</p>
+                <p>Телефон: +7 (123) 456-78-90</p>
+                <p>Email: info@example.com</p>
+            </div>
+            
+        <div class="footer-bottom">
+            <p>&copy; 2023 Все права защищены. <a href="c:\Users\Stu-2-09\Desktop\HTMLafonya\politick.html">Политика конфиденциальности</a> | <a href="c:\Users\Stu-2-09\Desktop\HTMLafonya\polzov.html">Пользовательское соглашение</a></p>
+        </div>
+    </footer>
+
+    <!-- Верхнее меню навигации -->
+<header>
+    <div class="logo">Спорт Магазин</div> 
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#products">Товары</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#footer">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ... -->
+
+<!-- Подвал -->
+<footer id="footer" class="footer">
+    <!-- ... -->
+</footer>14
+</body>
+</html>
+
+
+
+
